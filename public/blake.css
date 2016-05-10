@@ -1,0 +1,455 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #FFFEF2;	
+}
+
+.button {
+	text-align: center;
+	clear: both;
+/*	background-color: #FFFEF2;
+	margin: 20px;*/
+
+}
+
+.buttonSpecs {
+	background-color: #A84A41;
+	color: #FFFEF2;
+	border: none;
+	outline: 2px solid #242D3D;
+	outline-offset: 2px;
+	font-family: "vulpes";
+	font-size: 15px;
+	padding: 5px;
+	width: 150px;
+}
+
+.buttonSpecs:hover {
+	text-decoration: underline;
+}
+
+.space {
+	height: 30px;
+}
+
+
+.logo {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.tagLine {
+	display: inline-block;
+	font-family: "vulpes";
+	font-size: 25px;
+	width: 260px;
+}
+
+
+.img {
+	display: inline-block;
+}
+
+.nativeElectricLogo {
+	width: 260px;
+	display: inline-block;
+	margin-right: 40px;
+	margin-left: 40px;
+}
+
+.callUs {
+	width: 260px;
+	display: inline-block;
+	font-family: "vulpes";
+	font-size: 25px;
+}
+
+
+@media screen and (max-width: 885px){
+	.tagLine {
+		position: absolute;
+		opacity: 0;
+	}
+	.nativeElectricLogo {
+		display: block;
+		clear: both;
+	}
+	.callUs {
+		display: block;
+		clear: both;
+		margin: auto;
+		margin-top: 25px;
+	}
+}
+
+.hostetler {
+	background-color: #242D3D;
+	color: #FFFEF2;
+	font-family: "vulpes";
+	text-align: center;
+    text-shadow:
+    -2px -2px 0 #A84A41,
+    2px -2px 0 #A84A41,
+    -2px 2px 0 #A84A41,
+    2px 2px 0 #A84A41; 
+	padding: 20px;
+	font-size: 25px;
+}
+
+.smallSpace {
+	height: 5px;
+}
+
+
+
+
+/*all navbar stuff*/
+.navBar {
+	text-align: center;
+	background-color: #242D3D;
+	color: #FFFEF2;
+	font-family: "vulpes";
+	font-size: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+ul {
+	list-style-type: none;
+	display: inline-block;
+	margin: 0;
+}
+
+li {
+	display: inline-block;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+li:hover{
+	text-decoration: underline;
+}
+
+.line:hover{
+	color:#FFFEF2;
+	text-shadow: none;
+	text-decoration: none;
+}
+
+li:active{
+	transform: translateY(2px);
+}
+
+.line:active{
+	transform: none;
+}
+
+a {
+	color: #FFFEF2;
+	text-decoration: none;
+}
+
+/*.whiteSpace {
+	height: 5px;
+	color: #FFFEF2;
+	position: absolute;
+	opacity: 0;
+}*/
+/*end navbar stuff*/
+
+.hamburger {
+	position: absolute;
+	opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 766px){
+	.line {
+		position: absolute;
+		opacity: 0;
+	}
+}
+
+
+@media screen and (max-width: 546px){
+
+	.logo {
+		padding-top: 50px;
+	}
+
+
+	.navBar {
+		width: 100vw;
+		position: fixed;
+		top: 0px;
+		left:0px;
+		z-index: 10;
+		opacity: .9;
+		height: 50px;
+		padding-top: 20px;
+	}
+
+	ul {
+		margin: 0;
+		padding: 0;
+	}
+
+	li {
+		padding-right: 6vw;
+		padding-left: 6vw;
+		margin: 0;
+		border-left: 1px solid white;
+		border-right: 1px solid white;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.picture {
+	text-align: center;
+}
+
+.prettyPicture {
+/*	height: 40vw;*/
+width: 85vw;
+/*	outline: 2px solid #A84A41;*/
+	outline: 2px solid #FFFEF2;
+	outline-offset: -15px;
+	border: 2px solid #242D3D;
+	padding: 5px;
+	background-color: #A84A41;
+/*	border-offest: 12px;*/
+}
+
+.content {
+	position: relative;
+	padding: 10px;
+	font-family: "vulpes";
+}
+
+.commercial {
+	width: 50vw;
+}
+
+.residential {
+/*	position: relative;
+	display: inline-block;*/
+	width: 50vw;
+	float: right;
+}
+
+.commercialPhoto{
+	float: right;
+	width: 40vw;
+	padding: 20px;
+}
+
+.residentialPhoto{
+	float:left;
+	width: 40vw;
+	padding: 20px;
+}
+
+
+
+
+/*.button {
+	text-align: center;
+}
+
+.buttonSpecs {
+	background-color: #A84A41;
+	color: white;
+	font-family: "vulpes";
+	font-size: 15px;
+	padding: 5px;
+	width: 150px;
+}*/
+
+.blueSpace {
+	height: 30px;
+	background-color: #242D3D;
+	clear: both;
+}
+
+
+
+ h1 {
+ 	text-align: center;
+ 	font-family: "vulpes";
+ 	font-size: 25px;
+ }
+
+ h3 {
+ 	text-align: center;
+ }
+
+ .blakePic {
+ 	width: 30vw;
+ 	margin-left: 40px;
+ 	margin-right: 20px;
+ 	border: 2px solid #242D3D;
+ 	outline: 2px solid #FFFEF2;
+	outline-offset: -15px;
+	float: left;
+ }
+
+.about {
+	font-family: "Francois One";
+	margin-right: 40px;
+	padding-left: 100px;
+}
+
+
+.about a {
+	color: blue;
+}
+
+
+
+
+@media screen and (max-width: 546px){
+
+	.content {
+		text-align: center;
+		margin: 0;
+		padding: 0;
+	}
+
+	.blakePic {
+		width: 60vw;
+		margin: 0;
+		padding: 0;
+		float: none;
+	}
+
+	.about {
+		margin: 0;
+		padding: 0;
+	}
+
+	.commercialPhoto {
+		text-align: center;
+		width: 100vw;
+	}
+
+	.residentialPhoto {
+		text-align: center;
+		width: 100vw;
+	}
+
+	.commercial {
+		float: none;
+		width: 100vw;
+	}
+
+	.residential {
+		float: none;
+		width: 100vw;
+	}
+}
+/*.commercialContent{
+	font-family: "Francois One";
+}*/
+
+.sign {
+	position: relative;
+	float: right;
+}
+
+.signature{
+	font-family: "Rock Salt";
+}
+
+.signOff{
+	font-family: "vulpes";
+}
+
+.footer {
+	position: relative;
+	color: #242D3D;
+	font-size: 10px;
+	font-family: "vulpes";
+	text-align: center;
+}
+
+/*shameless copy paste shit here:*/
+
+/*not sure what this did...*/
+/*li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}*/
+
+/*this was useless*/
+/*li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}*/
+
+/*I don't know why this is important*/
+/*li.dropdown {
+    display: inline-block;
+}*/
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FFFEF2;
+/*    min-width: 160px;*/
+/*    width: 10vw;*/
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    outline: 1px solid #A84A41;
+	outline-offset: -5px;
+	z-index: 2;
+}
+
+.dropdown-content a {
+    color: #242D3D;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+	text-decoration: underline;
+}
+
+.show {
+	display: block;
+}
+
+
+
+/*@media screen and (max-width: 546px){
+	.dropdown-content {
+		min-width: 30px;
+	}
+}*/
+
+
+
