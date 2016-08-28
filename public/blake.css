@@ -237,16 +237,19 @@ a {
 }
 
 .prettyPicture {
-/*	height: 40vw;*/
-width: 85vw;
-/*	outline: 2px solid #A84A41;*/
-	outline: 2px solid #FFFEF2;
-	outline-offset: -15px;
+	width: 85vw;
+	outline: 2px solid #242D3D;
+	outline-offset: -20px;
 	border: 2px solid #242D3D;
 	padding: 5px;
 	background-color: #A84A41;
-/*	border-offest: 12px;*/
 }
+
+
+
+
+
+
 
 .content {
 	position: relative;
@@ -311,15 +314,27 @@ width: 85vw;
  	text-align: center;
  }
 
+
+ .familyPic {
+ 	height: 40vh;
+ 	border: 2px solid #242D3D;
+ 	outline: 2px solid #FFFEF2;
+ 	outline-offset: -5px;
+ 	margin-left: 150px;
+ }
+
+
+
  .blakePic {
- 	width: 30vw;
- 	margin-left: 40px;
+ 	width: 45vw;
+ 	margin-left: 100px;
  	margin-right: 20px;
  	border: 2px solid #242D3D;
  	outline: 2px solid #FFFEF2;
-	outline-offset: -15px;
+	outline-offset: -4px;
 	float: left;
  }
+
 
 .about {
 	font-family: "Francois One";
@@ -332,7 +347,11 @@ width: 85vw;
 	color: blue;
 }
 
-
+.photoBanner {
+	height: 10vh;
+	margin-left: 20px;
+	display: inline-block;
+}
 
 
 @media screen and (max-width: 546px){
